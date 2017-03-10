@@ -13,6 +13,7 @@
 * Perform jpeg encoding in reverse order
 
 ### Result (for N = 1, 2, 3, 5, 10)
-1. Compression rate calculation (When calculating the compression ratio, do not include the LUT used for Huffman coding)
-2. PSNR(Peak Signal to Noise Ratio) calculation by comparing JPEG decoded image with original image
-3. Graph of compression ratio and PSNR
+1. Show JPEG decoded image and original image
+2. Compression rate calculation (When calculating the compression ratio, do not include the LUT used for Huffman coding)
+3. PSNR(Peak Signal to Noise Ratio) calculation by comparing JPEG decoded image with original image
+4. Graph of compression ratio and PSNR
