@@ -1,6 +1,6 @@
 # JPEG-Compression
 
-###Procedures for JPEG encoding
+### Procedures for JPEG encoding
 1. Divide the image into 8x8 blocks
 2. Subtract 128 elements of the 8x8 block from the previous step
 3. Apply DCT to each block
@@ -9,7 +9,7 @@
 6. Because the DC coefficient (the first element in each block) is very large, (DC coefficient of the current block - DC coefficient of the previous block) to reduce the value
 7. Huffman Coding for each block
 
-###Procedures for JPEG decoding
+### Procedures for JPEG decoding
 * Perform jpeg encoding in reverse order
 
 ### Result (for N = 1, 2, 3, 5, 10)
