@@ -17,3 +17,16 @@
 2. Compression rate calculation (When calculating the compression ratio, do not include the LUT used for Huffman coding)
 3. PSNR(Peak Signal to Noise Ratio) calculation by comparing JPEG decoded image with original image
 4. Graph of compression ratio and PSNR
+
+* N = 1
+![result_n1](https://github.com/jhlee1108/jpeg-compression/blob/master/results/result_n1.PNG)
+* N = 2
+![result_n2](https://github.com/jhlee1108/jpeg-compression/blob/master/results/result_n2.PNG)
+* N = 3
+![result_n3](https://github.com/jhlee1108/jpeg-compression/blob/master/results/result_n3.PNG)
+* N = 5
+![result_n5](https://github.com/jhlee1108/jpeg-compression/blob/master/results/result_n5.PNG)
+* N = 10
+![result_n10](https://github.com/jhlee1108/jpeg-compression/blob/master/results/result_n10.PNG)
+* Graph of compression ratio and PSNR (X-axis = N)
+![graph](https://github.com/jhlee1108/jpeg-compression/blob/master/results/graph.PNG)
